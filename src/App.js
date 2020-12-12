@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>RIDE INDIA</h1>
+      <h1>RIDE INDIA <span>🏍️</span></h1>
       <h2>Best rated Bikes available in India</h2>
       <hr />
       <div className="bikeList">
@@ -43,8 +43,8 @@ export default function App() {
               </div>
               <div className="bike-info">
                 <h1>{bike.name} </h1>
-                <h4>{bike.displacement}</h4>
-                <h3>{bike.price}</h3>
+                <h4>Displacement : {bike.displacement}</h4>
+                <h3>Price : {bike.price}</h3>
               </div>
             </div>
           );
