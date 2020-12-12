@@ -39,7 +39,7 @@ export default function App() {
           return (
             <div className="bike">
               <div className="bike-img-div">
-                <img className="bike-img" src={bike.img} />
+                <img alt="" className="bike-img" src={bike.img} />
               </div>
               <div className="bike-info">
                 <h1>{bike.name} </h1>
