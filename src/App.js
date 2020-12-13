@@ -7,7 +7,8 @@ export default function App() {
     "All Bikes",
     "Street Naked Bikes",
     "Cruiser Bikes",
-    "Sports Bikes"
+    "Sports Bikes",
+    "Adventure Bikes"
   ]; // Object.keys(bikeData);
   console.log("bikesList", bikesList);
   const [bikeCategory, setBikeCategory] = useState("All Bikes");
@@ -48,6 +49,9 @@ export default function App() {
           );
         })}
       </div>
+      <footer>
+        <h5>Made with <span className="red">love</span> and <span className="blue">passion</span> by <a href="https://codingwolf-at.github.io/">codingWolf</a></h5>
+      </footer>
     </div>
   );
 }

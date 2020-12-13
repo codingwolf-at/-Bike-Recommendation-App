@@ -28,6 +28,7 @@
   background-color: var(--primary-color);
   color: white;
   border: none;
+  width: 11rem;
 }
 
 .bike {
@@ -44,4 +45,19 @@
   width: 95%;
   margin: auto;
   border-radius: 0.5rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
