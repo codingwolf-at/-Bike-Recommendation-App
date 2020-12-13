@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>RIDE INDIA <span>🏍️</span></h1>
+      <h1>RIDE INDIA</h1>
       <h2>Best rated Bikes available in India</h2>
       <hr />
       <div className="bikeList">
