@@ -38,9 +38,7 @@ export default function App() {
         {bikeData[bikeCategory].map((bike) => {
           return (
             <div className="bike">
-              <div className="bike-img-div">
-                <img alt="" className="bike-img" src={bike.img} />
-              </div>
+              <img alt="" className="bike-img" src={bike.img} />
               <div className="bike-info">
                 <h1>{bike.name} </h1>
                 <h4>Displacement : {bike.displacement}</h4>
