@@ -31,6 +31,10 @@
   width: 11rem;
 }
 
+.bikeList button:hover {
+  transform: scale(1.1);
+}
+
 .bike {
   background: var(--primary-color);
   padding: 2rem;
