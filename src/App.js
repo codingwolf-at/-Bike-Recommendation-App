@@ -3,7 +3,7 @@ import "./styles.css";
 import { bikeData } from "./Dataset";
 
 export default function App() {
-  var bikesList = [
+  let bikesList = [
     "All Bikes",
     "Street Naked Bikes",
     "Cruiser Bikes",
