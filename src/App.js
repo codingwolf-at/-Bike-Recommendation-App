@@ -10,7 +10,6 @@ export default function App() {
     "Sports Bikes",
     "Adventure Bikes"
   ]; // Object.keys(bikeData);
-  console.log("bikesList", bikesList);
   const [bikeCategory, setBikeCategory] = useState("All Bikes");
 
   function getBikes(category) {
