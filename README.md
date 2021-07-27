@@ -17,3 +17,5 @@ Recommendation App made for mark 9 during neogcamp level zero.
 ## Image credits
 
 - Wallpaper cave - [Link](https://wallpapercave.com/)
+- TopSpeed - [Link](https://www.topspeed.com/)
+- MaxAbout - [Link](https://www.maxabout.com/)
